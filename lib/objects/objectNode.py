@@ -1,0 +1,30 @@
+from dataclasses import dataclass
+
+from lib.objects.objectHeader import ObjectListHeader
+
+@dataclass
+class ObjectNode:
+    name: str
+    type: str
+    offset: int
+    lenght: int
+    data: str
+    subnodesOffset: list
+    hiddenOffsets: list
+    hiddenObjects: list
+
+@dataclass
+class ObjectListContent:
+    header: ObjectListHeader
+    objects: list
+    hiddenObjects: list
+
+@dataclass
+class ObjectList:
+    offset: int
+    size: int
+    unknown: int
+    unknown2: int
+    pos: int
+    data: str
+    content: ObjectListContent

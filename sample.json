@@ -1,0 +1,882 @@
+{
+  "header": {
+    "version": 10,
+    "crc": 3464152495,
+    "unknown": 6,
+    "descriptorsCount": 14
+  },
+  "filler": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAARGVmYXVsdAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+  "descriptors": {
+    "TDEP": {
+      "magicNumber": "TDEP",
+      "offset": 2048,
+      "count": 12,
+      "lenght": 952,
+      "startOfData": 16,
+      "dependencies": [
+        "C1_PowerGem",
+        "<build>models:/Levels/Crash1/collectibles/C1_PowerGem.hkx",
+        "C1_PowerGem",
+        "<build>models:/Levels/Crash1/collectibles/C1_PowerGem.igz",
+        "C2_PowerCrystal_CollectedLarge",
+        "vfx:/Global/Crystal/C2_PowerCrystal_CollectedLarge.igz",
+        "C2_PowerCrystal_Idle",
+        "vfx:/Global/Crystal/C2_PowerCrystal_Idle.igz",
+        "common_CameraDistanceFadeEntity",
+        "vsc:/common/Global/Cameras/common_CameraDistanceFadeEntity.igz",
+        "common_Collectible_Template_Spawned_c",
+        "vsc:/common/Collectibles/common_Collectible_Template_Spawned_c.igz"
+      ]
+    },
+    "TSTR": {
+      "magicNumber": "TSTR",
+      "offset": 3000,
+      "count": 44,
+      "lenght": 2284,
+      "startOfData": 16,
+      "strings": [
+        "common_CameraDistanceFadeEntity",
+        "common_CameraDistanceFadeEntityData",
+        "common_Zone_Collectible",
+        "common_Collectible_Gem_TemplateData",
+        "common_Spawner_Template_c",
+        "common_Spawner_TemplateData",
+        "L202_SnowGo_Crystal",
+        "Collectible_PowerCrystal_Spawned_gen",
+        "archetype_Scripts.Graph.common_CameraDistanceFadeEntityData",
+        "archetype_Scripts.Graph.common_Zone_CollectibleData",
+        "archetype_Scripts.Graph.common_Spawner_TemplateData",
+        "PhysicsMotionPropertiesPresets",
+        "StandardCollectible",
+        "CollisionMaterialPresets",
+        "common_Collectible_Template_Spawned_c",
+        "common_Collectible_Template_SpawnedData",
+        "metaobject",
+        "CSlider",
+        "archetype_CCollectibleComponentData",
+        "archetype_CScreenspaceTargetComponentData",
+        "archetype_Scripts.Graph.common_Collectible_Template_SpawnedData",
+        "archetype_CMovementControllerComponentData",
+        "archetype_CBasePhysicsComponentData",
+        "EntityTags",
+        "EntityType_Collectible",
+        "BazookaNoCollect",
+        "Levels\\Crash1\\collectibles\\C1_PowerGem",
+        "Collectible_PowerCrystal",
+        "Collectible_LevelCompletion_Crystal_entityData_gen",
+        "Collectible_LevelCompletion_Crystal_entityData_componentData_gen",
+        "Collectible_LevelCompletion_Crystal_entityData_componentData_CommonCameraDistanceFadeEntity_gen",
+        "Collectible_LevelCompletion_Crystal_entityData_componentData_CommonZoneCollectible_gen",
+        "Collectible_LevelCompletion_Crystal_entityData_componentData_CommonSpawnerTemplate_gen",
+        "Collectible_LevelCompletion_Crystal_Spawned_entityData_gen",
+        "Collectible_LevelCompletion_Crystal_Spawned_entityData_componentData_gen",
+        "Collectible_LevelCompletion_Crystal_Spawned_entityData_componentData_Collectible_gen",
+        "Collectible_Template_entityData_componentData_ScreenspaceTarget_gen",
+        "Collectible_LevelCompletion_Crystal_Spawned_entityData_componentData_CommonCollectibleTemplateSpawned_gen",
+        "Collectible_LevelCompletion_Crystal_Spawned_entityData_componentData_MovementController_gen",
+        "Collectible_LevelCompletion_Crystal_Spawned_entityData_componentData_MovementController_controllerList_gen",
+        "Collectible_LevelCompletion_Crystal_Spawned_entityData_componentData_MovementController_controllerList_0_gen",
+        "Collectible_LevelCompletion_Crystal_Spawned_entityData_componentData_MovementController_controllerList_1_gen",
+        "Collectible_Template_entityData_componentData_PhysicsBoundingSphere_gen",
+        "Collectible_LevelCompletion_Crystal_Spawned_entityData_tags001_gen"
+      ]
+    },
+    "TMET": {
+      "magicNumber": "TMET",
+      "offset": 5284,
+      "count": 24,
+      "lenght": 480,
+      "startOfData": 16,
+      "strings": [
+        "igObjectList",
+        "CEntity",
+        "CEntityData",
+        "igComponentDataTable",
+        "CVscComponentData",
+        "CEntityBolt",
+        "CObjectBolt",
+        "igComponentList",
+        "igEntityTransform",
+        "CPhysicalEntity",
+        "CPhysicalEntityData",
+        "CCollectibleComponentData",
+        "CScreenspaceTargetComponentData",
+        "CMovementControllerComponentData",
+        "CBaseMovementControllerList",
+        "CRotationController",
+        "CSlider",
+        "CBobController",
+        "CNullPhysicsComponentData",
+        "CEntityTagSet",
+        "CEnableRequestManager",
+        "CAttackNumberTimestampTable",
+        "CAttackImmunityTimestampTable",
+        "igNameList"
+      ]
+    },
+    "MTSZ": {
+      "magicNumber": "MTSZ",
+      "offset": 5764,
+      "count": 24,
+      "lenght": 112,
+      "startOfData": 16,
+      "mapper": [
+        40,
+        144,
+        56,
+        64,
+        40,
+        48,
+        72,
+        40,
+        128,
+        296,
+        144,
+        208,
+        64,
+        40,
+        40,
+        208,
+        136,
+        128,
+        24,
+        64,
+        56,
+        64,
+        64,
+        40
+      ]
+    },
+    "EXID": {
+      "magicNumber": "EXID",
+      "offset": 5876,
+      "count": 9,
+      "lenght": 92,
+      "startOfData": 20,
+      "mapper": [
+        {
+          "name": 2643193737,
+          "type": 2643193737
+        },
+        {
+          "name": 1166963635,
+          "type": 1166963635
+        },
+        {
+          "name": 1760175341,
+          "type": 1760175341
+        },
+        {
+          "name": 1528722203,
+          "type": 1528722203
+        },
+        {
+          "name": 1410299350,
+          "type": 1124438091
+        },
+        {
+          "name": 295439394,
+          "type": 1124438091
+        },
+        {
+          "name": 2024139199,
+          "type": 2024139199
+        },
+        {
+          "name": 878868546,
+          "type": 1251536536
+        },
+        {
+          "name": 2028648758,
+          "type": 1251536536
+        }
+      ]
+    },
+    "EXNM": {
+      "magicNumber": "EXNM",
+      "offset": 5968,
+      "count": 10,
+      "lenght": 96,
+      "startOfData": 16,
+      "mapper": [
+        {
+          "name": "common_CameraDistanceFadeEntityData",
+          "nameA": 0,
+          "type": "common_CameraDistanceFadeEntity",
+          "typeA": 0
+        },
+        {
+          "name": "common_Collectible_Gem_TemplateData",
+          "nameA": 0,
+          "type": "common_Zone_Collectible",
+          "typeA": 0
+        },
+        {
+          "name": "common_Spawner_TemplateData",
+          "nameA": 0,
+          "type": "common_Spawner_Template_c",
+          "typeA": 0
+        },
+        {
+          "name": "Collectible_PowerCrystal_Spawned_gen",
+          "nameA": 0,
+          "type": "L202_SnowGo_Crystal",
+          "typeA": 32768
+        },
+        {
+          "name": "StandardCollectible",
+          "nameA": 0,
+          "type": "PhysicsMotionPropertiesPresets",
+          "typeA": 32768
+        },
+        {
+          "name": "StandardCollectible",
+          "nameA": 0,
+          "type": "CollisionMaterialPresets",
+          "typeA": 32768
+        },
+        {
+          "name": "common_Collectible_Template_SpawnedData",
+          "nameA": 0,
+          "type": "common_Collectible_Template_Spawned_c",
+          "typeA": 0
+        },
+        {
+          "name": "CSlider",
+          "nameA": 0,
+          "type": "metaobject",
+          "typeA": 0
+        },
+        {
+          "name": "EntityType_Collectible",
+          "nameA": 0,
+          "type": "EntityTags",
+          "typeA": 0
+        },
+        {
+          "name": "BazookaNoCollect",
+          "nameA": 0,
+          "type": "EntityTags",
+          "typeA": 0
+        }
+      ]
+    },
+    "RVTB": {
+      "magicNumber": "RVTB",
+      "offset": 6064,
+      "count": 32,
+      "lenght": 48,
+      "startOfData": 16,
+      "mapper": [
+        6,
+        50,
+        88,
+        96,
+        132,
+        152,
+        162,
+        206,
+        216,
+        236,
+        244,
+        278,
+        279,
+        312,
+        364,
+        412,
+        432,
+        456,
+        468,
+        486,
+        534,
+        570,
+        604,
+        636,
+        666,
+        676,
+        696,
+        706,
+        742,
+        750,
+        788,
+        828
+      ]
+    },
+    "RSTT": {
+      "magicNumber": "RSTT",
+      "offset": 6112,
+      "count": 27,
+      "lenght": 36,
+      "startOfData": 16,
+      "mapper": [
+        279,
+        281,
+        282,
+        11714,
+        11719,
+        11735,
+        11737,
+        11738,
+        11916,
+        11919,
+        11951,
+        11955,
+        11959,
+        11963,
+        11967,
+        11971,
+        11975,
+        11979,
+        11983,
+        11987,
+        11991,
+        11995,
+        11999,
+        12003,
+        12007,
+        12011,
+        12011
+      ]
+    },
+    "ROFS": {
+      "magicNumber": "ROFS",
+      "offset": 6148,
+      "count": 63,
+      "lenght": 64,
+      "startOfData": 16,
+      "mapper": [
+        1,
+        17,
+        19,
+        21,
+        23,
+        25,
+        27,
+        29,
+        31,
+        33,
+        35,
+        37,
+        39,
+        41,
+        43,
+        45,
+        47,
+        49,
+        51,
+        53,
+        59,
+        63,
+        69,
+        72,
+        88,
+        136,
+        140,
+        172,
+        182,
+        194,
+        214,
+        226,
+        272,
+        273,
+        321,
+        323,
+        357,
+        359,
+        365,
+        381,
+        389,
+        403,
+        407,
+        410,
+        412,
+        432,
+        434,
+        435,
+        597,
+        598,
+        623,
+        635,
+        655,
+        657,
+        661,
+        2841,
+        2843,
+        2846,
+        5294,
+        5295,
+        5298,
+        5606,
+        5606
+      ]
+    },
+    "RPID": {
+      "magicNumber": "RPID",
+      "offset": 6212,
+      "count": 3,
+      "lenght": 24,
+      "startOfData": 16,
+      "mapper": [
+        1589,
+        1590,
+        1650
+      ]
+    },
+    "RHND": {
+      "magicNumber": "RHND",
+      "offset": 6236,
+      "count": 12,
+      "lenght": 28,
+      "startOfData": 16,
+      "mapper": [
+        273,
+        275,
+        293,
+        329,
+        333,
+        367,
+        369,
+        375,
+        397,
+        399,
+        401,
+        405
+      ]
+    },
+    "RNEX": {
+      "magicNumber": "RNEX",
+      "offset": 6264,
+      "count": 7,
+      "lenght": 28,
+      "startOfData": 16,
+      "mapper": [
+        1281,
+        1301,
+        1315,
+        1320,
+        7506,
+        7507,
+        7513
+      ]
+    },
+    "ROOT": {
+      "magicNumber": "ROOT",
+      "offset": 6292,
+      "count": 1,
+      "lenght": 20,
+      "startOfData": 16,
+      "values": [
+        0
+      ]
+    },
+    "ONAM": {
+      "magicNumber": "ONAM",
+      "offset": 6312,
+      "count": 1,
+      "lenght": 20,
+      "startOfData": 16,
+      "offsetOnam": 3592
+    }
+  },
+  "objList": {
+    "offset": 6332,
+    "size": 3920,
+    "unknown": 16,
+    "unknown2": 0,
+    "pos": 40,
+    "data": "00000000000000000000000000000000120000001200000090000000000010012800000000000000b80000000000000048010000000000008001000000000000000200000000000050020000000000008002000000000000500400000000000078050000000000000806000000000000c8060000000000009807000000000000d80700000000000048080000000000007008000000000000b008000000000000080a000000000000880a000000000000200b000000000000010000000000000001000000000000002803000000000000a003000000000000051350c4431d89464245cd4500000000d00300000000000081100101000000004801000000000000000070c1000070c10000000000007041000070410000f0410000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000200000000000000020000000000000080010000000000000000803f00000000140000002000000000000000000000000000000000000000030000000000000002000000000000004000000000001001c0010000000000004000000000001001e80200000000000003000000010000000000003f00000000000200000000000000000000000000005002000000000000000000000000000000000000000000000000000000000000800200000000000000000000000000000400000000000000020000000000000001000000000000002802000000000000000000000000000000000000000000000100000000000000010000000000000002000000000000000000000000000000040000000000000002000000000000000100000000000000780200000000000001000000000000000002000000000000040000000000000002000000000000000100000000000000a802000000000000020000000000000000010000010000000000000000000000000000000000000000000000000000000000008000000000000000000000a040000000000100000000000000000000000800000000000000000000000000000009000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000005000000000000000100000000000000000000000000000000000000000000005803000000000000010000000000000006000000000000000100000000000000ffffffff00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000070000000000000001000000000000000000000000000000000000000000100000000000000000000000000000000000080000000000000001000000000000000000000000000000000000000000803f0000803f000000000000000000000000000000000000803f000000000000000000000000000000000000803f000000000000000000000000000000000000803f0000000000000000000000000000803f0000e03f0000e03f0000e03f0100000009000000000000000100000000000000880b000000000000000c00000000000000000000000000000000000000000000300c00000000000083100101000000007805000000000000000070c1000070c10000000000007041000070410000f0410000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000ffffffffffffffff00000000ffffffffb00c000000000000e80c000000000000680d00000000000000000000000000000a00000000000000020000000000000008060000000000000000803f0000000010002010200000000000000000000000200b000000000000000200000200000001000000010000001a000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000040000000000008000000064000000640000000200000003000000000000000200000000000000800000000000100148060000000000008000000000001001a00a00000000000005000000010000000000003f000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c8060000000000009807000000000000d80700000000000000000000000000000000000000000000000000000000000000000000000000004808000000000000880a0000000000000b000000000000000200000000000000010000000000000002000000000000000000803f0000d2420000fa44010000000000fa44010000000000aa42000080bf9a99993f010000000000704200000000010000800000000002000080000000009001000000000000030000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000009a99993ecdcc4c3effffffff000000000c000000000000000200000000000000010000000000000000004842000048420000484201000000000000000000000000000000010000000000000000000000040000000000000002000000000000000100000000000000000800000000000003000000000000000000000000000000040000000000000005000000000000000600000000000000000000000000000007000000000000000800000000000000000000000000000000000000000000000d000000000000000200000000000000010000000000000070080000000000000100000000007a440e000000000000000200000000000000020000000200000010000000000010019808000000000000b008000000000000080a00000000000000000000000000000f0000000000000002000000000000000100000000000000000000000000000003000000000000000000000000000000000000000000000000000000000000000000803f0000000000000000000000000000000000000000010000000000b44300010000010000000000000000002041010000000000000000000000ffff7f7f80090000000000000000000000000000000000000000000000000000000000000000000000000000000000000000803f000000000000000000000000000000000000000000000000000000000000000010000000000000000100000000000000000000000000000004000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000010000000000000000000000cdcccc3d0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000110000000000000002000000000000000100000000000000000000000000000003000000000000000000000000000000000000000000000000002041000000000000003f0000000000000000000080bf00000000000000000000803f0100000000000000010000000000000000000000000000000000000000000000000000001200000000000000020000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000120000000000000013000000000000001400000000000000000000000000000000000000000000000000000000000000000000000000000015000000000000001600000000000000130000000000000002000000000000000400000000000001600b0000000000002000000000001001680b00000000000002000000010000000000003f00000000010100000000000005000000000000800600000000000080000000000000000000000000000000000500000000000000010000000000000000000000000000000000000000000000b80b000000000000010000000000000006000000000000000100000000000000ffffffff00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000070000000000000001000000000000000000000000000000000000000000100000000000000000000000000000000000080000000000000001000000000000000000000000000000000000000000803f0000803f000000000000000000000000000000000000803f000000000000000000000000000000000000803f000000000000000000000000000000000000803f0000000000000000000000000000803f0000e03f0000e03f0000e03f010000001400000000000000010000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000150000000000000001000000000000002000000000000001280d0000000000002000000000000001480d00000000000000000000010000000000003f000000000000000000000000000000000000000000000000000000000000000000000000fafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafa160000000000000001000000000000002000000000000001a80d0000000000004000000000001001c80d00000000000000000000010000000000003f000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001700000000000000000000000000000012000000120000002001000000001001300e0000000000001b00000000000000279e422f000000001c000000000000009643433f000000001d000000000000008e7c9aa8000000001e00000000000000892a004c000000001f00000000000000229ed5f400000000200000000000000044da7f6700000000070000000000000007dcee28000000002100000000000000f9d87fb600000000220000000000000019224ab1000000002300000000000000b42a840800000000240000000000000027126b8e0000000025000000000000009f217840000000002600000000000000995065dc000000002700000000000000c070a3ee000000002800000000000000e7c3b33600000000290000000000000060367d63000000002a00000000000000ac257e9b000000002b00000000000000ba17c51200000000",
+    "content": {
+      "header": {
+        "padding": "00000000000000000000000000000000",
+        "count": 18,
+        "unknown": "1200000090000000000010012800000000000000"
+      },
+      "objects": [
+        {
+          "name": "Collectible_PowerCrystal",
+          "type": "CEntity",
+          "offset": 6516,
+          "lenght": 144,
+          "data": "010000000000000001000000000000002803000000000000a003000000000000051350c4431d89464245cd4500000000d00300000000000081100101000000004801000000000000000070c1000070c10000000000007041000070410000f041000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000",
+          "subnodesOffset": [
+            6660
+          ],
+          "hiddenOffsets": [
+            7140,
+            7260,
+            7308,
+            6348
+          ],
+          "hiddenObjects": []
+        },
+        {
+          "name": "Collectible_LevelCompletion_Crystal_entityData_gen",
+          "type": "CEntityData",
+          "offset": 6660,
+          "lenght": 56,
+          "data": "0200000000000000020000000000000080010000000000000000803f00000000140000002000000000000000000000000000000000000000",
+          "subnodesOffset": [
+            6716
+          ],
+          "hiddenOffsets": [],
+          "hiddenObjects": []
+        },
+        {
+          "name": "Collectible_LevelCompletion_Crystal_entityData_componentData_gen",
+          "type": "igComponentDataTable",
+          "offset": 6716,
+          "lenght": 128,
+          "data": "030000000000000002000000000000004000000000001001c0010000000000004000000000001001e80200000000000003000000010000000000003f0000000000020000000000000000000000000000500200000000000000000000000000000000000000000000000000000000000080020000000000000000000000000000",
+          "subnodesOffset": [
+            6844,
+            6924,
+            6972
+          ],
+          "hiddenOffsets": [
+            7076
+          ],
+          "hiddenObjects": []
+        },
+        {
+          "name": "Collectible_LevelCompletion_Crystal_entityData_componentData_CommonCameraDistanceFadeEntity_gen",
+          "type": "CVscComponentData",
+          "offset": 6844,
+          "lenght": 80,
+          "data": "0400000000000000020000000000000001000000000000002802000000000000000000000000000000000000000000000100000000000000010000000000000002000000000000000000000000000000",
+          "subnodesOffset": [],
+          "hiddenOffsets": [],
+          "hiddenObjects": []
+        },
+        {
+          "name": "Collectible_LevelCompletion_Crystal_entityData_componentData_CommonZoneCollectible_gen",
+          "type": "CVscComponentData",
+          "offset": 6924,
+          "lenght": 48,
+          "data": "040000000000000002000000000000000100000000000000780200000000000001000000000000000002000000000000",
+          "subnodesOffset": [
+            6844
+          ],
+          "hiddenOffsets": [],
+          "hiddenObjects": []
+        },
+        {
+          "name": "Collectible_LevelCompletion_Crystal_entityData_componentData_CommonSpawnerTemplate_gen",
+          "type": "CVscComponentData",
+          "offset": 6972,
+          "lenght": 104,
+          "data": "040000000000000002000000000000000100000000000000a802000000000000020000000000000000010000010000000000000000000000000000000000000000000000000000000000008000000000000000000000a04000000000010000000000000000000000",
+          "subnodesOffset": [],
+          "hiddenOffsets": [
+            7188
+          ],
+          "hiddenObjects": []
+        },
+        {
+          "name": "Collectible_PowerCrystal_Spawned_gen",
+          "type": "CPhysicalEntity",
+          "offset": 7436,
+          "lenght": 296,
+          "data": "09000000000000000100000000000000880b000000000000000c00000000000000000000000000000000000000000000300c00000000000083100101000000007805000000000000000070c1000070c10000000000007041000070410000f0410000000000000000000000000000000000000000000000000000000000000000000000000000000000000000100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000010000000000000000000ffffffffffffffff00000000ffffffffb00c000000000000e80c000000000000680d0000000000000000000000000000",
+          "subnodesOffset": [
+            7732
+          ],
+          "hiddenOffsets": [
+            9284,
+            9404,
+            9452,
+            6348,
+            9580,
+            9636,
+            9764
+          ],
+          "hiddenObjects": []
+        },
+        {
+          "name": "Collectible_LevelCompletion_Crystal_Spawned_entityData_gen",
+          "type": "CPhysicalEntityData",
+          "offset": 7732,
+          "lenght": 144,
+          "data": "0a00000000000000020000000000000008060000000000000000803f0000000010002010200000000000000000000000200b000000000000000200000200000001000000010000001a0000000000000000000000000000000000000000000000000000000000000001000000000000000000000000000000000400000000000080000000640000006400000002000000",
+          "subnodesOffset": [
+            7876,
+            9180,
+            6844
+          ],
+          "hiddenOffsets": [],
+          "hiddenObjects": []
+        },
+        {
+          "name": "Collectible_LevelCompletion_Crystal_Spawned_entityData_componentData_gen",
+          "type": "igComponentDataTable",
+          "offset": 7876,
+          "lenght": 192,
+          "data": "03000000000000000200000000000000800000000000100148060000000000008000000000001001a00a00000000000005000000010000000000003f000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000c8060000000000009807000000000000d80700000000000000000000000000000000000000000000000000000000000000000000000000004808000000000000880a000000000000",
+          "subnodesOffset": [
+            8068,
+            8276,
+            8340,
+            8452,
+            9028
+          ],
+          "hiddenOffsets": [],
+          "hiddenObjects": []
+        },
+        {
+          "name": "Collectible_LevelCompletion_Crystal_Spawned_entityData_componentData_Collectible_gen",
+          "type": "CCollectibleComponentData",
+          "offset": 8068,
+          "lenght": 208,
+          "data": "0b000000000000000200000000000000010000000000000002000000000000000000803f0000d2420000fa44010000000000fa44010000000000aa42000080bf9a99993f010000000000704200000000010000800000000002000080000000009001000000000000030000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000009a99993ecdcc4c3effffffff00000000",
+          "subnodesOffset": [],
+          "hiddenOffsets": [],
+          "hiddenObjects": []
+        },
+        {
+          "name": "Collectible_Template_entityData_componentData_ScreenspaceTarget_gen",
+          "type": "CScreenspaceTargetComponentData",
+          "offset": 8276,
+          "lenght": 64,
+          "data": "0c000000000000000200000000000000010000000000000000004842000048420000484201000000000000000000000000000000010000000000000000000000",
+          "subnodesOffset": [],
+          "hiddenOffsets": [],
+          "hiddenObjects": []
+        },
+        {
+          "name": "Collectible_LevelCompletion_Crystal_Spawned_entityData_componentData_CommonCollectibleTemplateSpawned_gen",
+          "type": "CVscComponentData",
+          "offset": 8340,
+          "lenght": 112,
+          "data": "04000000000000000200000000000000010000000000000000080000000000000300000000000000000000000000000004000000000000000500000000000000060000000000000000000000000000000700000000000000080000000000000000000000000000000000000000000000",
+          "subnodesOffset": [],
+          "hiddenOffsets": [],
+          "hiddenObjects": []
+        },
+        {
+          "name": "Collectible_LevelCompletion_Crystal_Spawned_entityData_componentData_MovementController_gen",
+          "type": "CMovementControllerComponentData",
+          "offset": 8452,
+          "lenght": 40,
+          "data": "0d000000000000000200000000000000010000000000000070080000000000000100000000007a44",
+          "subnodesOffset": [
+            8492
+          ],
+          "hiddenOffsets": [],
+          "hiddenObjects": []
+        },
+        {
+          "name": "Collectible_LevelCompletion_Crystal_Spawned_entityData_componentData_MovementController_controllerList_gen",
+          "type": "CBaseMovementControllerList",
+          "offset": 8492,
+          "lenght": 64,
+          "data": "0e000000000000000200000000000000020000000200000010000000000010019808000000000000b008000000000000080a0000000000000000000000000000",
+          "subnodesOffset": [
+            8556,
+            8900
+          ],
+          "hiddenOffsets": [
+            6348
+          ],
+          "hiddenObjects": []
+        },
+        {
+          "name": "Collectible_LevelCompletion_Crystal_Spawned_entityData_componentData_MovementController_controllerList_0_gen",
+          "type": "CRotationController",
+          "offset": 8556,
+          "lenght": 208,
+          "data": "0f0000000000000002000000000000000100000000000000000000000000000003000000000000000000000000000000000000000000000000000000000000000000803f0000000000000000000000000000000000000000010000000000b44300010000010000000000000000002041010000000000000000000000ffff7f7f80090000000000000000000000000000000000000000000000000000000000000000000000000000000000000000803f0000000000000000000000000000000000000000000000000000000000000000",
+          "subnodesOffset": [],
+          "hiddenOffsets": [
+            8764,
+            6348
+          ],
+          "hiddenObjects": []
+        },
+        {
+          "name": "Collectible_LevelCompletion_Crystal_Spawned_entityData_componentData_MovementController_controllerList_1_gen",
+          "type": "CBobController",
+          "offset": 8900,
+          "lenght": 128,
+          "data": "110000000000000002000000000000000100000000000000000000000000000003000000000000000000000000000000000000000000000000002041000000000000003f0000000000000000000080bf00000000000000000000803f010000000000000001000000000000000000000000000000000000000000000000000000",
+          "subnodesOffset": [],
+          "hiddenOffsets": [],
+          "hiddenObjects": []
+        },
+        {
+          "name": "Collectible_Template_entityData_componentData_PhysicsBoundingSphere_gen",
+          "type": "CNullPhysicsComponentData",
+          "offset": 9028,
+          "lenght": 152,
+          "data": "1200000000000000020000000000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000120000000000000013000000000000001400000000000000000000000000000000000000000000000000000000000000000000000000000015000000000000001600000000000000",
+          "subnodesOffset": [],
+          "hiddenOffsets": [],
+          "hiddenObjects": []
+        },
+        {
+          "name": "Collectible_LevelCompletion_Crystal_Spawned_entityData_tags001_gen",
+          "type": "CEntityTagSet",
+          "offset": 9180,
+          "lenght": 72,
+          "data": "130000000000000002000000000000000400000000000001600b0000000000002000000000001001680b00000000000002000000010000000000003f000000000101000000000000",
+          "subnodesOffset": [],
+          "hiddenOffsets": [
+            9252,
+            9332
+          ],
+          "hiddenObjects": []
+        }
+      ],
+      "hiddenObjects": [
+        {
+          "name": 0,
+          "type": "CNullPhysicsComponentData",
+          "offset": 6348,
+          "lenght": 168,
+          "data": "1200000090000000000010012800000000000000b80000000000000048010000000000008001000000000000000200000000000050020000000000008002000000000000500400000000000078050000000000000806000000000000c8060000000000009807000000000000d80700000000000048080000000000007008000000000000b008000000000000080a000000000000880a000000000000200b00000000000001000000",
+          "subnodesOffset": [],
+          "hiddenOffsets": [],
+          "hiddenObjects": []
+        },
+        {
+          "name": 7,
+          "type": "igEntityTransform",
+          "offset": 7076,
+          "lenght": 64,
+          "data": "00000000000000000000000009000000000000000000000000000000000000000000000000000000000000000a00000000000000000000000000000005000000",
+          "subnodesOffset": [],
+          "hiddenOffsets": [],
+          "hiddenObjects": []
+        },
+        {
+          "name": 8,
+          "type": "CEntityBolt",
+          "offset": 7140,
+          "lenght": 48,
+          "data": "000000000100000000000000000000000000000000000000000000005803000000000000010000000000000006000000",
+          "subnodesOffset": [],
+          "hiddenOffsets": [],
+          "hiddenObjects": []
+        },
+        {
+          "name": 9,
+          "type": "CObjectBolt",
+          "offset": 7188,
+          "lenght": 72,
+          "data": "000000000100000000000000ffffffff0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007000000",
+          "subnodesOffset": [],
+          "hiddenOffsets": [],
+          "hiddenObjects": []
+        },
+        {
+          "name": 10,
+          "type": "igComponentList",
+          "offset": 7260,
+          "lenght": 48,
+          "data": "000000000100000000000000000000000000000000000000000010000000000000000000000000000000000008000000",
+          "subnodesOffset": [],
+          "hiddenOffsets": [],
+          "hiddenObjects": []
+        },
+        {
+          "name": 11,
+          "type": "igEntityTransform",
+          "offset": 7308,
+          "lenght": 128,
+          "data": "0000000001000000000000000000000000000000000000000000803f0000803f000000000000000000000000000000000000803f000000000000000000000000000000000000803f000000000000000000000000000000000000803f0000000000000000000000000000803f0000e03f0000e03f0000e03f0100000009000000",
+          "subnodesOffset": [],
+          "hiddenOffsets": [],
+          "hiddenObjects": []
+        },
+        {
+          "name": 21,
+          "type": "CSlider",
+          "offset": 8764,
+          "lenght": 136,
+          "data": "000000000100000000000000000000000000000004000000000000000000000000000000000000000000000000000000010000000000000000000000000000000000000000000000010000000000000000000000cdcccc3d000000000000000000000000000000000000000000000000000000000000000000000000000000000000000011000000",
+          "subnodesOffset": [],
+          "hiddenOffsets": [],
+          "hiddenObjects": []
+        },
+        {
+          "name": 25,
+          "type": "CEntityBolt",
+          "offset": 9252,
+          "lenght": 32,
+          "data": "0000008006000000000000800000000000000000000000000000000005000000",
+          "subnodesOffset": [],
+          "hiddenOffsets": [],
+          "hiddenObjects": []
+        },
+        {
+          "name": 26,
+          "type": "CEntityBolt",
+          "offset": 9284,
+          "lenght": 48,
+          "data": "00000000010000000000000000000000000000000000000000000000b80b000000000000010000000000000006000000",
+          "subnodesOffset": [],
+          "hiddenOffsets": [],
+          "hiddenObjects": []
+        },
+        {
+          "name": 27,
+          "type": "CObjectBolt",
+          "offset": 9332,
+          "lenght": 72,
+          "data": "000000000100000000000000ffffffff0000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000007000000",
+          "subnodesOffset": [],
+          "hiddenOffsets": [],
+          "hiddenObjects": []
+        },
+        {
+          "name": 28,
+          "type": "igComponentList",
+          "offset": 9404,
+          "lenght": 48,
+          "data": "000000000100000000000000000000000000000000000000000010000000000000000000000000000000000008000000",
+          "subnodesOffset": [],
+          "hiddenOffsets": [],
+          "hiddenObjects": []
+        },
+        {
+          "name": 29,
+          "type": "igEntityTransform",
+          "offset": 9452,
+          "lenght": 128,
+          "data": "0000000001000000000000000000000000000000000000000000803f0000803f000000000000000000000000000000000000803f000000000000000000000000000000000000803f000000000000000000000000000000000000803f0000000000000000000000000000803f0000e03f0000e03f0000e03f0100000014000000",
+          "subnodesOffset": [],
+          "hiddenOffsets": [],
+          "hiddenObjects": []
+        },
+        {
+          "name": 30,
+          "type": "CEnableRequestManager",
+          "offset": 9580,
+          "lenght": 56,
+          "data": "0000000001000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000015000000",
+          "subnodesOffset": [],
+          "hiddenOffsets": [],
+          "hiddenObjects": []
+        },
+        {
+          "name": 31,
+          "type": "CAttackNumberTimestampTable",
+          "offset": 9636,
+          "lenght": 128,
+          "data": "0000000001000000000000002000000000000001280d0000000000002000000000000001480d00000000000000000000010000000000003f000000000000000000000000000000000000000000000000000000000000000000000000fafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafafa16000000",
+          "subnodesOffset": [],
+          "hiddenOffsets": [],
+          "hiddenObjects": []
+        },
+        {
+          "name": 32,
+          "type": "CAttackImmunityTimestampTable",
+          "offset": 9764,
+          "lenght": 200,
+          "data": "0000000001000000000000002000000000000001a80d0000000000004000000000001001c80d00000000000000000000010000000000003f000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001700000000000000000000000000000012000000120000002001000000001001300e0000000000001b000000",
+          "subnodesOffset": [],
+          "hiddenOffsets": [],
+          "hiddenObjects": []
+        }
+      ]
+    }
+  }
+}

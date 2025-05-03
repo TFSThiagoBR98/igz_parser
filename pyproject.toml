@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "igz_decomposer"
+version = "0.1.0"
+description = "Extract IGZ Files from Crash NST"
+authors = ["Thiago França da Silva <contact@tfs.dev.br>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+python-slugify = "^7.0.0"
+requests = "^2.28.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
