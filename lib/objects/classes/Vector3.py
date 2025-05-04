@@ -2,6 +2,7 @@ from dataclasses import dataclass
 from struct import unpack
 
 from lib.objects.objectNode import ObjectNode
+from lib.utils import concat_hex_groups
 
 @dataclass
 class Vector3:
@@ -14,8 +15,8 @@ class Vector3:
 
     @staticmethod
     def parser(node: ObjectNode, byd: str):
-        data = bytes.fromhex(node.data)
-        floats = unpack(f'{byd}6f', data)
+        data = concat_hex_groups(node.data)
+        floats = unpack(f'{byd}LLLL4f', data)
         return Vector3(
             node.name,
             node.type,

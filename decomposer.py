@@ -14,7 +14,7 @@ from lib.objects.objectNode import ObjectList, ObjectListContent, ObjectNode
 from lib.objects.objectHeader import parserObjectHeader
 from lib.objects.objectParser import parserObjectToClass
 from lib.objects.offsetParser import parserObjectONAMOffset
-from lib.utils import compareMagicByte
+from lib.utils import compareMagicByte, split_into_hex_groups
 
 @dataclass
 class IgzFile:
@@ -45,18 +45,7 @@ def fetchChunks(igzFile: BufferedReader, byteorder: Literal["little", "big"] = "
             break
     return chunks
 
-## To Read
-# Skip 16 bytes
-# Read int32 X
-# Jump 20 bytes (offset + 40)
-# Loop 8 bytes from 0 until X
-## Store the index in separate if result == 0 k
-## Store in other list the result, it contains an offset z
-# Get ONAM offset
-# Go to Offset + 40 + ONAM offset
-# Loop 16 bytes and store it in int32 if index is NOT in k
-# Loop z and use its contents to seek to offset + z[index]
-## Read an int32
+
 def processObjects(igzFile: BufferedReader, chunk: ChunkInfo, onam: ONAM, tstr: TSTR, tmet: TMET, byteorder: Literal["little", "big"] = "big"):
     print(f"Reading Data Chunk: {chunk.offset}")
     
@@ -186,7 +175,7 @@ def processObjects(igzFile: BufferedReader, chunk: ChunkInfo, onam: ONAM, tstr: 
             ## This offset is not Hidden, we can locate the Object and calculate his content
             obj = next(x for x in objects if x.offset == chunk.offset + offset)
             if obj == None:
-                print('HUUUUUUUH')
+                raise(Exception('Object not found'))
             idx = objects.index(obj)
             igzFile.seek(chunk.offset + offset)
 
@@ -195,7 +184,7 @@ def processObjects(igzFile: BufferedReader, chunk: ChunkInfo, onam: ONAM, tstr: 
             if objectSize < 0:
                 raise Exception(f'Failed to parse Object Size, its negative {offsetList[v]} {nextInOrder}')
             data = igzFile.read(objectSize)
-            obj.data = data.hex()
+            obj.data = split_into_hex_groups(data)
             obj.lenght = objectSize
             objects[idx] = obj
             pass
@@ -218,12 +207,18 @@ def processObjects(igzFile: BufferedReader, chunk: ChunkInfo, onam: ONAM, tstr: 
                 raise Exception(f'Failed to parse Object Size, its negative {offsetList[v]} {nextInOrder}')
             data = igzFile.read(objectSize)
 
-            objectNode = ObjectNode(v, typeId, pos, objectSize, data.hex(), [], [], [])
+            objectNode = ObjectNode(v, typeId, pos, objectSize, split_into_hex_groups(data), [], [], [])
             hiddenObjects.append(objectNode)
 
             pass
         v += 1
         pass
+
+    ## Now we pos process the objects to manipulate the data
+    finalObjects = []
+    obj: ObjectNode
+    for obj in objects:
+        finalObjects.append(parserObjectToClass(obj, byteorder))
 
     return ObjectList(
         chunk.offset,
@@ -231,10 +226,9 @@ def processObjects(igzFile: BufferedReader, chunk: ChunkInfo, onam: ONAM, tstr: 
         chunk.unknown,
         chunk.unknown2,
         chunk.pos,
-        chunk.data,
         ObjectListContent(
             header,
-            objects,
+            finalObjects,
             hiddenObjects
         )
     )
@@ -273,7 +267,7 @@ def processIgz(igzFile: BufferedReader, byteorder: Literal["little", "big"] = "b
         outfile.write(jsonC)
 
 
-with open('L202_SnowGo_Crystal.igz', 'rb') as f:
+with open('L202_SnowGo_Crates.igz', 'rb') as f:
     igzMagicB = 0x49475A01
     igzMagicL = 0x015A4749
 

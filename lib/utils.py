@@ -1,6 +1,12 @@
 from io import BufferedReader
 import struct
 
+def split_into_hex_groups(data):
+    return [data[i:i+4].hex().upper() for i in range(0, len(data), 4)]
+
+def concat_hex_groups(hex_list):
+    return b''.join(bytes.fromhex(hex_str) for hex_str in hex_list)
+
 def checkByteOrder(igzFile: BufferedReader):
     igzMagicBigEndian = 0x49475A01
     igzMagicLittleEndian = 0x015A4749

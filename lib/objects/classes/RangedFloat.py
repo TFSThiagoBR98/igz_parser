@@ -5,30 +5,27 @@ from lib.objects.objectNode import ObjectNode
 from lib.utils import concat_hex_groups
 
 @dataclass
-class CEntity:
+class RangedFloat:
     name: str
     type: str
     offset: int
     lenght: int
     data: str
-    x: float
-    y: float
-    z: float
+    floats: list
 
     @staticmethod
     def parser(node: ObjectNode, byd: str):
-        data = node.data
-        classData = data[4:]
-        coodr = concat_hex_groups(classData[4:7])
-        x, y, z = unpack(f'{byd}3f', coodr)
-        
-        return CEntity(
+        data = concat_hex_groups(node.data)
+
+        ## In this format 16 bytes are the Header?
+        floatSize = int((node.lenght - 16) / 4)
+
+        floats = unpack(f'{byd}LLLL{floatSize}f', data)
+        return RangedFloat(
             node.name,
             node.type,
             node.offset,
             node.lenght,
             node.data,
-            x,
-            y,
-            z
+            floats
         )

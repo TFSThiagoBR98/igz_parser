@@ -8,7 +8,7 @@ class ObjectNode:
     type: str
     offset: int
     lenght: int
-    data: str
+    data: list
     subnodesOffset: list
     hiddenOffsets: list
     hiddenObjects: list
@@ -26,5 +26,4 @@ class ObjectList:
     unknown: int
     unknown2: int
     pos: int
-    data: str
     content: ObjectListContent
