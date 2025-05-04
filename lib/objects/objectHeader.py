@@ -9,10 +9,10 @@ class ObjectListHeader:
     count: int
     unknown: str
 
-def parserObjectHeader(igzFile: BufferedReader, offset: int, byteorder: Literal["little", "big"] = "big"):
+def parserObjectHeader(igzFile: BufferedReader, offset: int, sectorStart: int, byteorder: Literal["little", "big"] = "big"):
     igzFile.seek(offset)
 
-    padding = igzFile.read(16)
+    padding = igzFile.read(sectorStart)
     headerByt = igzFile.read(24)
 
     byd: str

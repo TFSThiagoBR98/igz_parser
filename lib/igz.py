@@ -17,7 +17,7 @@ class IgzFile:
     objList: ObjectList
 
 def processIgz(igzFile: BufferedReader, byteorder: Literal["little", "big"] = "big"):
-    # FORMAT: VERSION + CRC + UNKNOWN + UNKNOWN + CHUNK DESCRIPTOR + EMPTY DATA
+    # FORMAT: VERSION + CRC + UNKNOWN + FIXUP COUNT + CHUNK DESCRIPTOR + EMPTY DATA
     header = parseHeader(igzFile, byteorder)
     
     print(f"Version: {header.version}")

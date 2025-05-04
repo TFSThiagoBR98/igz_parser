@@ -31,7 +31,7 @@ def parserObjectToClass(node: ObjectNode, byteorder: Literal["little", "big"] = 
 def processObjects(igzFile: BufferedReader, chunk: ChunkInfo, onam: ONAM, tstr: TSTR, tmet: TMET, byteorder: Literal["little", "big"] = "big"):
     print(f"Reading Data Chunk: {chunk.offset}")
     
-    header = parserObjectHeader(igzFile, chunk.offset, byteorder)
+    header = parserObjectHeader(igzFile, chunk.offset, chunk.dataStartOffset, byteorder)
 
     count = header.count
     spList = []
@@ -205,8 +205,7 @@ def processObjects(igzFile: BufferedReader, chunk: ChunkInfo, onam: ONAM, tstr: 
     return ObjectList(
         chunk.offset,
         chunk.size,
-        chunk.unknown,
-        chunk.unknown2,
+        chunk.dataStartOffset,
         chunk.pos,
         ObjectListContent(
             header,

@@ -23,7 +23,6 @@ class ObjectListContent:
 class ObjectList:
     offset: int
     size: int
-    unknown: int
-    unknown2: int
+    dataStartOffset: int
     pos: int
     content: ObjectListContent
